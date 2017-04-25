@@ -8,4 +8,9 @@ $(document).ready(function() {
     $("body").removeClass();
     $("body").addClass("dark-background");
   });
+
+  $("p#highlight").click(function() {
+    $("body").removeClass();
+    $("p#highlight").addClass("border");
+  });
 });
